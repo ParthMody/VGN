@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_app/utility/route.dart';
 
 class Login extends StatelessWidget {
   const Login({Key? key}) : super(key: key);
@@ -48,7 +49,7 @@ class Login extends StatelessWidget {
                 child:Text('Login'),
                 style:TextButton.styleFrom() ,
                 onPressed: (){
-                  print('Hello');
+                  Navigator.pushNamed(context,Routes.homeRoute);
                 },
             ),
           ],
