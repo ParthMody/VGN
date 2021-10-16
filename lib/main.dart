@@ -17,10 +17,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       themeMode: ThemeMode.light,
       theme: ThemeData(
+          primarySwatch:Colors.orange,
           fontFamily:GoogleFonts.lato().fontFamily,
       ),
       debugShowCheckedModeBanner: false,
-      initialRoute: "/",
+      initialRoute:Routes.homeRoute,
       routes: {
         "/":(context)=>Login(),
         Routes.loginRoute:(context)=>Login(),
