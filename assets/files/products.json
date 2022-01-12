@@ -55,6 +55,22 @@
       "price": 2999,
       "platform": "PS4,PS5,Xbox One,Xbox Series X and Series S,Microsoft Windows",
       "image": "https://cdn.vox-cdn.com/thumbor/TcQWWcpqhZ2youutkpScYCBSggA=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22233661/Cyberpunk2077.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Cricket 22 International Edition",
+      "desc": "Cricket 22 delivers the Ashes, the Big Bash, The Hundred, and other fan-favourite competitions in the biggest, boldest and best cricket game to date!",
+      "price": 3999,
+      "platform": "PS4,PS5,Xbox One,Xbox Series X and Series S,Microsoft Windows",
+      "image":"https://image.api.playstation.com/vulcan/img/rnd/202110/1110/csFGEEu4ddtbzeVzYv4oTquB.png"
+    },
+    {
+      "id": 10,
+      "name": "Far Cry 6",
+      "desc": "Fight against Anton's troops in the largest Far Cry playground to date ",
+      "price": 3999,
+      "platform": "PS4,PS5,Xbox One,Xbox Series X and Series S,Microsoft Windows",
+      "image":"https://cdn1.epicgames.com/b4565296c22549e4830c13bc7506642d/offer/TETRA_PREORDER_STANDARD%20EDITION_EPIC_Store_Portrait_1200x1600-1200x1600-ca8b802ff13813c37a44ebf68d0946a2.png"
     }
   ]
 }

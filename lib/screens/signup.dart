@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:modal_progress_hud_nsn/modal_progress_hud_nsn.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:fluttertoast/fluttertoast.dart';
+import 'package:modal_progress_hud_nsn/modal_progress_hud_nsn.dart';
 import 'package:my_app/screens/home.dart';
+import 'login.dart';
 
 void main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -17,12 +19,11 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-class Login extends StatefulWidget {
+class Signup extends StatefulWidget {
   @override
-  _LoginState createState() => _LoginState();
+  _SignupState createState() => _SignupState();
 }
-
-class _LoginState extends State<Login> {
+class _SignupState extends State<Signup> {
   final _auth = FirebaseAuth.instance;
   bool showProgress = false;
   String? email, password;
@@ -39,12 +40,12 @@ class _LoginState extends State<Login> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              Image.asset('assets/images/vgn.png',
+              Image.asset("assets/images/vgn.png",
                 width: 150,
                 height: 75,
               ),
               Text(
-                'Login Page',
+                'Welcome to VGN',
                 style: TextStyle(fontWeight: FontWeight.w800, fontSize: 20.0),
               ),
               SizedBox(
@@ -54,7 +55,7 @@ class _LoginState extends State<Login> {
                 keyboardType: TextInputType.emailAddress,
                 textAlign: TextAlign.center,
                 onChanged: (value) {
-                  email = value; // get value from TextField
+                  email = value; //get the value entered by user.
                 },
                 decoration: InputDecoration(
                     hintText: 'Enter your Email',
@@ -68,7 +69,7 @@ class _LoginState extends State<Login> {
                 obscureText: true,
                 textAlign: TextAlign.center,
                 onChanged: (value) {
-                  password = value;
+                  password = value; //get the value entered by user.
                 },
                 decoration: InputDecoration(
                     hintText: 'Enter your Password',
@@ -88,18 +89,14 @@ class _LoginState extends State<Login> {
                       showProgress = true;
                     });
                     try {
-                      final newUser = await _auth.signInWithEmailAndPassword(
+                      final newuser = await _auth.createUserWithEmailAndPassword(
                           email: email.toString(), password: password.toString());
-                      print(newUser.toString());
-                      if (newUser != null) {
-                        Navigator.pushNamed(context, 'home_screen');
-                        Fluttertoast.showToast(
-                            msg: "Login Successfull",
-                            toastLength: Toast.LENGTH_SHORT,
-                            gravity: ToastGravity.CENTER,
-                            backgroundColor: Colors.orangeAccent,
-                            textColor: Colors.black,
-                            fontSize: 16.0);
+                      if (newuser != null) {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => Login()),
+                        );
                         setState(() {
                           showProgress = false;
                         });
@@ -109,9 +106,27 @@ class _LoginState extends State<Login> {
                   minWidth: 200.0,
                   height: 45.0,
                   child: Text(
-                    "Login",
+                    'Sign up',
                     style:
                     TextStyle(fontWeight: FontWeight.w500, fontSize: 20.0),
+                  ),
+                ),
+              ),
+              SizedBox(
+                height: 15.0,
+              ),
+              GestureDetector(
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => Login()),
+                  );
+                },
+                child: Text(
+                  'Already Registered? Login Now',
+                  style: TextStyle(
+                      color: Colors.orange,
+                      fontWeight: FontWeight.w900
                   ),
                 ),
               )

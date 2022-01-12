@@ -39,11 +39,12 @@ class MyDrawer extends StatelessWidget {
                 CupertinoIcons.game_controller_solid,
                 color: Colors.black,
               ),
-              title: Text('Games',
+              title: Text('Game',
                 style:TextStyle(
                   color: Colors.black,
                 ),
               ),
+              // onTap: ()=>{},
             ),
           ],
         ),
