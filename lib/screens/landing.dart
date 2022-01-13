@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import '../main.dart';
-import './login.dart';
-import './signup.dart';
 
 class Landing extends StatefulWidget {
   const Landing({Key? key}) : super(key: key);
@@ -22,7 +19,8 @@ class _LandingState extends State<Landing> {
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: <Widget>[
                 Image.asset("assets/images/vgn.png",
-                  fit:BoxFit.cover,
+                  width:500,
+                  height:250,
                 ),
                 SizedBox(
                   height: 20.0,
