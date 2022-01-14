@@ -2,8 +2,8 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:my_app/modals/catalog.dart';
-import 'package:my_app/widgets/ItemWidget.dart';
-import 'package:my_app/widgets/drawer.dart';
+import 'package:my_app/screens/screen_widgets/catalog_header.dart';
+import 'package:my_app/screens/screen_widgets/catalog_list.dart';
 import 'dart:convert';
 
 
@@ -34,6 +34,7 @@ class _HomeState extends State<Home> {
     setState(() {});
   }
 
+
   void getCurrentUser() async {
     try {
       final user = await _auth.currentUser;
@@ -49,31 +50,24 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     // final String name="World";
     return Scaffold(
-      appBar: AppBar(
-        actions: <Widget>[
-          IconButton(
-              icon: Icon(Icons.close),
-              onPressed: () {
-                _auth.signOut();
-                Navigator.pop(context);
-              }),
-        ],
-        title: Text('VGN'),
-        centerTitle: true,
-        backgroundColor:Colors.deepOrange,
-      ),
-      body:Padding(
-        padding: const EdgeInsets.all(18.0),
-        child: ListView.builder(
-          itemCount:CatalogModal.items.length,
-          itemBuilder: (context,index){
-            return ItemWidget(
-              item:CatalogModal.items[index],
-            );
-          },
+      body: SafeArea(
+        child: Container(
+          padding:EdgeInsets.all(30),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              CatalogHeader(),
+              if(CatalogModal.items!=null && CatalogModal.items.isNotEmpty)
+                CatalogList()
+              else
+                Center(child: CircularProgressIndicator())
+            ],
+          ),
         ),
       ),
-      drawer: MyDrawer(),
     );
   }
 }
+
+
+
