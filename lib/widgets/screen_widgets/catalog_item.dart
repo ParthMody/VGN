@@ -4,9 +4,11 @@ import 'catalog_image.dart';
 
 class CatalogItem extends StatelessWidget {
   final Item products;
+
   const CatalogItem({Key? key, required this.products})
       : assert(products!=null),
         super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -19,7 +21,12 @@ class CatalogItem extends StatelessWidget {
           padding: EdgeInsets.all(10),
           child: Row(
             children: [
-              CatalogImage(image:products.image),
+              Hero(
+                tag:Key(products.id.toString()),
+                child: Card(
+                    child: CatalogImage(image:products.image)
+                ),
+              ),
               Expanded(
                 child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -46,7 +53,9 @@ class CatalogItem extends StatelessWidget {
                         ),
                       ),
                       IconButton(
-                        onPressed:()=>{},
+                        onPressed:()=>{
+                          Text('Added to favourites'),
+                        },
                         icon:Icon(
                           Icons.favorite,
                         ),

@@ -2,9 +2,11 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:my_app/modals/catalog.dart';
-import 'package:my_app/screens/screen_widgets/catalog_header.dart';
-import 'package:my_app/screens/screen_widgets/catalog_list.dart';
+import 'package:my_app/widgets/drawer.dart';
+import 'package:my_app/widgets/screen_widgets/catalog_header.dart';
 import 'dart:convert';
+
+import 'package:my_app/widgets/screen_widgets/catalog_list.dart';
 
 
 
@@ -65,6 +67,7 @@ class _HomeState extends State<Home> {
           ),
         ),
       ),
+      // drawer: MyDrawer(),
     );
   }
 }

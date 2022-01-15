@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:my_app/modals/catalog.dart';
-import '../home.dart';
+import 'package:my_app/screens/home_details.dart';
 import 'catalog_item.dart';
 
 class CatalogList extends StatelessWidget {
@@ -15,7 +15,16 @@ class CatalogList extends StatelessWidget {
         itemCount:CatalogModal.items.length,
         itemBuilder: (context,index){
           final products=CatalogModal.items[index];
-          return CatalogItem(products: products);
+          return InkWell(
+              onTap: ()=>Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder:(context)=>HomeDetails(
+                          products: products,
+                      ),
+                  ),
+              ),
+              child: CatalogItem(products: products));
         },
       ),
     );
