@@ -37,7 +37,7 @@ class CatalogModal {
       desc: "A prequel of RDR 1",
       price: 3999,
       platform: "PS4,Xbox One,Google Stadia,Microsoft Windows",
-      image: "https://static.tvtropes.org/pmwiki/pub/images/rdr2.png",
+      image: "https://static.tvtropes.org/pmwiki/pub/images/rdr2.png"
     )
   ];
 }
