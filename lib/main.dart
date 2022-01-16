@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:my_app/screens/News.dart';
+import 'package:my_app/screens/feed.dart';
 import 'package:my_app/screens/home.dart';
-import 'package:my_app/screens/home_details.dart';
 import 'package:my_app/screens/landing.dart';
 import 'package:my_app/screens/login.dart';
 import 'package:my_app/screens/signup.dart';
@@ -35,7 +34,7 @@ class MyApp extends StatelessWidget {
         'signup_screen':(context)=>Signup(),
         'login_screen':(context)=>Login(),
         'home_screen':(context)=>Home(),
-        'news_screen':(context)=>News()
+        'feed_screen':(context)=>Feed()
       },
     );
   }

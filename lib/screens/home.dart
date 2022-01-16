@@ -5,10 +5,7 @@ import 'package:my_app/modals/catalog.dart';
 import 'package:my_app/widgets/drawer.dart';
 import 'package:my_app/widgets/screen_widgets/catalog_header.dart';
 import 'dart:convert';
-
 import 'package:my_app/widgets/screen_widgets/catalog_list.dart';
-
-
 
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
@@ -72,7 +69,7 @@ class _HomeState extends State<Home> {
       floatingActionButton: FloatingActionButton(
           child:Icon(Icons.library_books),
           onPressed: ()=>{
-            Navigator.pushNamed(context, 'news_screen'),
+            Navigator.pushNamed(context, 'feed_screen'),
           },
       ),
     );
