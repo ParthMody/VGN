@@ -36,15 +36,18 @@ class HomeDetails extends StatelessWidget {
                         Text(products.name,
                           style: TextStyle(
                             fontWeight: FontWeight.bold,
-                            fontSize: 20,
+                            fontSize: 25,
                             color: Colors.black87,
                           ),
+                        ),
+                        SizedBox(
+                          height: 20,
                         ),
                         Expanded(
                           child: Text(products.desc,
                             style:TextStyle(
                               fontWeight: FontWeight.w100,
-                              fontSize: 15,
+                              fontSize: 20,
                             ),
                           ),
                         ),
@@ -56,6 +59,6 @@ class HomeDetails extends StatelessWidget {
           ),
         ),
       ),
-    );
+      );
   }
 }

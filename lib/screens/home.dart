@@ -5,10 +5,7 @@ import 'package:my_app/modals/catalog.dart';
 import 'package:my_app/widgets/drawer.dart';
 import 'package:my_app/widgets/screen_widgets/catalog_header.dart';
 import 'dart:convert';
-
 import 'package:my_app/widgets/screen_widgets/catalog_list.dart';
-
-
 
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
@@ -52,6 +49,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     // final String name="World";
     return Scaffold(
+      appBar: AppBar(),
       body: SafeArea(
         child: Container(
           padding:EdgeInsets.all(30),
@@ -67,7 +65,13 @@ class _HomeState extends State<Home> {
           ),
         ),
       ),
-      // drawer: MyDrawer(),
+      drawer: MyDrawer(),
+      floatingActionButton: FloatingActionButton(
+          child:Icon(Icons.library_books),
+          onPressed: ()=>{
+            Navigator.pushNamed(context, 'feed_screen'),
+          },
+      ),
     );
   }
 }
