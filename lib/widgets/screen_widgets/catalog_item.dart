@@ -2,12 +2,19 @@ import 'package:flutter/material.dart';
 import 'package:my_app/modals/catalog.dart';
 import 'catalog_image.dart';
 
-class CatalogItem extends StatelessWidget {
+class CatalogItem extends StatefulWidget {
   final Item products;
 
   const CatalogItem({Key? key, required this.products})
       : assert(products!=null),
         super(key: key);
+
+  @override
+  State<CatalogItem> createState() => _CatalogItemState();
+}
+
+class _CatalogItemState extends State<CatalogItem> {
+  Color _favIconColor = Colors.grey;
 
   @override
   Widget build(BuildContext context) {
@@ -22,9 +29,9 @@ class CatalogItem extends StatelessWidget {
           child: Row(
             children: [
               Hero(
-                tag:Key(products.id.toString()),
+                tag:Key(widget.products.id.toString()),
                 child: Card(
-                    child: CatalogImage(image:products.image)
+                    child: CatalogImage(image:widget.products.image)
                 ),
               ),
               Expanded(
@@ -32,21 +39,21 @@ class CatalogItem extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text(products.name,
+                  Text(widget.products.name,
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       color: Colors.black87,
                     ),
                   ),
                   Expanded(
-                    child: Text(products.platform,
+                    child: Text(widget.products.platform,
                       style:Theme.of(context).textTheme.caption,
                     ),
                   ),
                   ButtonBar(
                     alignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text('\₹${products.price}',
+                      Text('\₹${widget.products.price}',
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           color: Colors.orange,
@@ -54,12 +61,19 @@ class CatalogItem extends StatelessWidget {
                       ),
                       IconButton(
                         onPressed:()=>{
-                          Text('Added to favourites'),
+                          setState((){
+                            if(_favIconColor==Colors.grey){
+                              _favIconColor=Colors.pink;
+                            }else{
+                              _favIconColor=Colors.grey;
+                            }
+                          },
+                          ),
                         },
                         icon:Icon(
                           Icons.favorite,
                         ),
-                        color: Colors.pinkAccent,
+                        color: _favIconColor,
                       ),
                     ],
                   ),

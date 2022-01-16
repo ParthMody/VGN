@@ -11,7 +11,6 @@ class MyDrawer extends StatefulWidget {
 
 class _MyDrawerState extends State<MyDrawer> {
 
-  String uname="";
 
   @override
   Widget build(BuildContext context) {
@@ -26,10 +25,10 @@ class _MyDrawerState extends State<MyDrawer> {
                 color: Colors.deepOrangeAccent,
               ),
               padding: EdgeInsets.zero,
-              child:Text('Welcome to VGN, $uname',
+              child:Text('Welcome to VGN,Stay Connected!',
               style: TextStyle(
                 fontWeight:FontWeight.bold,
-                color: Colors.black,
+                color:Colors.black,
                 fontSize: 24,
               ),
             ),
@@ -63,16 +62,9 @@ class _MyDrawerState extends State<MyDrawer> {
               //   Navigator.pushNamed(context, '');
               // },
             ),
-            TextFormField(
-              decoration: new InputDecoration(
-                hintText: 'Enter username',
-              ),
-              onChanged: (value){
-                uname=value;
-                setState(() {
-                });
-              },
-            ),
+            ListTile(
+
+            )
           ],
         ),
       ),

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:my_app/screens/News.dart';
 import 'package:my_app/screens/home.dart';
 import 'package:my_app/screens/home_details.dart';
 import 'package:my_app/screens/landing.dart';
@@ -26,14 +27,15 @@ class MyApp extends StatelessWidget {
           fontFamily:GoogleFonts.lato().fontFamily,
       ),
       debugShowCheckedModeBanner: false,
-      initialRoute:'landing_screen',
-      // initialRoute:'home_screen',
+      // initialRoute:'landing_screen',
+      initialRoute:'home_screen',
       routes: {
         '/':(context)=>Login(),
         'landing_screen':(context)=>Landing(),
         'signup_screen':(context)=>Signup(),
         'login_screen':(context)=>Login(),
         'home_screen':(context)=>Home(),
+        'news_screen':(context)=>News()
       },
     );
   }
