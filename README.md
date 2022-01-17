@@ -1,4 +1,4 @@
-# my_app
+# VGN
 
 A new Flutter project.
 
