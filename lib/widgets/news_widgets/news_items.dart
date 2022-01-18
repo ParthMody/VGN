@@ -19,54 +19,56 @@ class _NewsItemState extends State<NewsItem> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Expanded(
-        child: Container(
-          width: 200,
-          height: 200,
-          padding: EdgeInsets.all(10),
-              child: Padding(
-                padding: EdgeInsets.all(10),
-                child: Row(
-                  children: [
-                    Hero(
-                      tag:Key(widget.newslist.id.toString()),
-                      child: Text(''),
-                    ),
-                    Expanded(
-                        child:Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Expanded(
-                              child: Text(widget.newslist.headl,
-                                style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 16,
-                                ),
-                              ),
+        child: Card(
+          child: Container(
+            width: 200,
+            height: 200,
+            padding: EdgeInsets.all(10),
+            child: Padding(
+              padding: EdgeInsets.all(10),
+              child: Row(
+                children: [
+                  Hero(
+                    tag:Key(widget.newslist.id.toString()),
+                    child: Text(''),
+                  ),
+                  Expanded(
+                    child:Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Expanded(
+                          child: Text(widget.newslist.headl,
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 16,
                             ),
-
-                            SizedBox(width: 10,),
-
-                            Expanded(
-                              child:NewsImage(imageN:widget.newslist.image
-                              ),
-                            ),
-
-                            SizedBox(width: 10,),
-
-                            Expanded(
-                              child: Text(widget.newslist.desc,
-                                style:Theme.of(context).textTheme.caption,
-                              ),
-                            ),
-                          ],
+                          ),
                         ),
+
+                        SizedBox(width: 10,),
+
+                        Expanded(
+                          child:NewsImage(imageN:widget.newslist.image
+                          ),
+                        ),
+
+                        SizedBox(width: 10,),
+
+                        Expanded(
+                          child: Text(widget.newslist.desc,
+                            style:Theme.of(context).textTheme.caption,
+                          ),
+                        ),
+                      ],
                     ),
-                  ],
-                ),
+                  ),
+                ],
               ),
             ),
+          ),
         ),
+      ),
     );
   }
 }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:my_app/modals/news.dart';
+import 'package:my_app/screens/feed_details.dart';
 import 'package:my_app/widgets/news_widgets/news_items.dart';
 
 class NewsList extends StatelessWidget {
@@ -18,7 +19,7 @@ class NewsList extends StatelessWidget {
               onTap: ()=>Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder:(context)=>NewsItem(
+                  builder:(context)=>FeedDetails(
                     newslist: newslist,
                   ),
                 ),

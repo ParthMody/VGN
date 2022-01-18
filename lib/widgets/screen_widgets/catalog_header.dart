@@ -11,13 +11,12 @@ class CatalogHeader extends StatelessWidget {
           style: TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 30,
-            color: Colors.deepOrange,
+            color: Colors.black,
           ),
         ),
         Text('Featured games',
           style: TextStyle(
-            fontSize: 15,
-
+            fontSize: 20,
           ),
         ),
       ],
