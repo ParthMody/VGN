@@ -4,22 +4,64 @@
       "id": 1,
       "headl": "WWE 2K22’s cover art and pre-order bonus has reportedly leaked",
       "desc": "WWE 2K22’s cover art has reportedly leaked, along with information about pre-order bonuses, and the WWE 2K22 Deluxe Edition.",
-      "link": "https://www.videogameschronicle.com/news/wwe-2k22s-cover-art-and-pre-order-bonus-has-reportedly-leaked/",
+      "link": "According to TechnikNews, Rey Mysterio will feature on the cover of both the regular and deluxe editions of the game.According to the report, the game will offer 3-day early access starting March 8, and the WWE 2K22 Deluxe Edition will feature the Undertaker Immortal Pack and the season pass.Players who pre-order the game will also receive the Undertaker Immortal Pack.This bundle is said to include “Three additional Undertaker personas, three additional Undertaker personas: Phantom Mask Undertaker, Lord of Darkness Undertaker, Boneyard Match Undertaker, MyFACTION EVO cards for Undertaker, and MyFACTION Perks and Bonuses.",
       "image": "https://cdn3.whatculture.com/images/2022/01/875eb7b1fbb0eba4-600x338.jpg"
     },
     {
       "id": 2,
-      "headl": "",
-      "desc": "",
-      "link": "",
-      "image": ""
+      "headl": "God of War is Sony's biggest PC launch to date",
+      "desc": "God of War is Sony's biggest PC launch to date",
+      "link": "God of War had a fantastic launch weekend on Steam, with a healthy concurrent player count and a wealth of positive reviews.January 16 saw the gruff dad simulator garner 73,529 concurrent players according to SteamDB, the highest peak reached by any of Sony's PC catalogue. That's not half-bad for a game that's technically nearing its fourth anniversary. It's also sitting at an impressive 97% overwhelmingly positive rating on Steam as I write this. Many reviews are praising the excellent job Jetpack Interactive and Santa Monica Studio have done on the port.",
+      "image": "https://cdn.mos.cms.futurecdn.net/kzTteqgThnycCMKFJqCFrg-1024-80.png"
     },
     {
       "id": 3,
-      "headl": "",
-      "desc": "",
-      "link": "",
-      "image": ""
+      "headl": "Dying Light 2’s developer promises ‘at least 5 years’ of post-launch content",
+      "desc": "The open-world shooter, which has suffered several years of delays since its first reveal at E3 2018, will finally release next month.",
+      "link": "It’s developer has said players should expect a significant amount of development beyond day one, including the addition of new stories and locations.It wrote on Friday: “Want to know what will happen AFTER the premiere? We guarantee to expand the world of Dying Light 2 Stay Human for at least 5 years post launch with new stories, locations, in-game events and all the fun stuff you love!”",
+      "image": "https://www.videogameschronicle.com/files/2020/01/dying-light-2-b-1024x576.jpg"
+    },
+    {
+      "id": 4,
+      "headl": "PS3 games have started appearing on the PS5 store",
+      "desc": "SEVERAL LAST-GEN GAMES HAVE BEEN SPOTTED, AMID BACKWARDS COMPATIBILITY REPORTS",
+      "link": "When viewing a PS3 game on the PS5 store, the listing should direct the player towards the PlayStation Now version of the game, however, Dead Or Alive 5 displays a price, £7.99 i.e(812 Indian Rupees).Other users on social media have reported seeing similar listings for PS3’s Bejeweled and Prince of Persia games The Forgotten Sands and The Two Thrones, each with their own purchase prices.",
+      "image": "https://www.videogameschronicle.com/files/2022/01/DOA-1024x571.jpg"
+    },
+    {
+      "id": 5,
+      "headl": "Save Red Dead Online Trends on Twitter as Fans Beg for New Content",
+      "desc": "The new year is not off to a good start for Rockstar Games, at least when it comes to how fans are reacting to the first 2022 update to the game.",
+      "link": "Currently, one of the biggest trending hashtags on Twitter today is Save Red Dead Online.According to numerous tweets, the consensus is that Red Dead Online fans are begging Rockstar to support the online version of Red Dead Redemption 2 with more substantial content. The #SaveRedDeadOnline has had over 10,000 tweets over the last day.",
+      "image": "https://i0.wp.com/twinfinite.net/wp-content/uploads/2022/01/red-dead-online.jpg"
+    },
+    {
+      "id": 6,
+      "headl": "Fortnite teases the return of Tilted Towers on Twitter",
+      "desc": "All it takes is three words and an emoji from the official account to get its players all riled up.",
+      "link": "Tilted Towers was an infamous landmark from Fortnite's earlier days: a dense, multilevel area with high spawn rates for gear but also plenty of places for enemies to hide, leaving it a high-risk, high-reward drop zone and a natural setting for tense, memorable firefights. It's seen some variations and throwbacks in various updates over the years, but has been MIA for some time.\n\nThe official account's tweet with the emoji of a city skyline seems to confirm what dataminers uncovered earlier this month: that Tilted Towers will be returning to the current iteration of Fortnite's map. It seems pretty certain that we'll see this new version in the game's 19.10 update launching tomorrow.",
+      "image": "https://cdn2.unrealengine.com/7up-v2-3840x2160-e11fc91a84d6.jpg"
+    },
+    {
+      "id": 7,
+      "headl": "Everything in the Uncharted: Legacy of Thieves Collection",
+      "desc": "Naughty Dog has revealed the features fans can look forward to experiencing when Uncharted: Legacy of Thieves Collection lands on PC and PS5.",
+      "link": "Naughty Dog’s Uncharted: Legacy of Thieves Collection is set to bring the action-adventure series natively to PC and PS5 for the very first time. Those that have been fortunate enough to dig up one of Sony’s next generation consoles only have to wait a couple of weeks before they can get their hands on Nathan Drake and Chloe Frazer’s updated adventures. PC players, on the other hand, will have to hold on a bit longer, as Iron Galaxy Studios' port of the double-pack still only has an ambiguous 2022 release date attached to it.",
+      "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/01/Uncharted-Legacy-PS5-PC.jpg"
+    },
+    {
+      "id": 8,
+      "headl": "Elden Ring overtakes Dying Light 2 to become Steam's most wishlisted game",
+      "desc": "It knocks Dying Light 2 off its 12-month long streak.",
+      "link": "From Software's hotly-anticipated action RPG - for which Game of Thrones creator George R.R. Martin has contributed to the world-building - surpassed Techland's Dying Light 2: Stay Human earlier this week to secure the top spot as Steam's most-wanted game.Dying Light 2 has sat at the top of Steam's most-wishlisted chart for all of 2021, having succeeded Cyperpunk 2077 at the end of 2020. It marks the first time Elden Ring has ever topped the list.",
+      "image": "https://i.ytimg.com/vi/JldMvQMO_5U/maxresdefault.jpg"
+    },
+    {
+      "id": 9,
+      "headl": "PUBG nearly doubles concurrent player count on Steam following their move",
+      "desc": "PUBG: Battlegrounds is now free-to-play, and the gambit appears to be going well so far.",
+      "link": "With the popular battle royale shooter having peaked at 669k concurrent players on Steam earlier today, meaning it came close to doubling December's figures.As noted by industry analyst Daniel Ahmad on Twitter, PUBG saw its concurrent peak player count climb to 668,707 on Steam following its shift to free-to-play earlier today, beating its previous two month highs by more than 300k players.That's some considerable way off its all-time peak of 3,236,027 players on Steam, reached in January 2018, but it's still a significant boost for a title that's seen a steady decline in player numbers since then - starting 2021 with around 450k concurrents based on figures from Steam Charts, and failing to climb back above the 400k mark in the last three months of the year.",
+      "image": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/clans/27971017/174c50bdf1b4cde60d90c33545af7a6e5c6c6674.jpg"
     }
   ]
 }

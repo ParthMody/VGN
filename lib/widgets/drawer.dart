@@ -22,7 +22,7 @@ class _MyDrawerState extends State<MyDrawer> {
           children: [
             DrawerHeader(
               decoration: BoxDecoration(
-                color: Colors.deepOrangeAccent,
+                color: Colors.orangeAccent,
               ),
               padding: EdgeInsets.zero,
               child:Text('Welcome to VGN,Stay Connected!',
