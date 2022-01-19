@@ -53,18 +53,16 @@ class _MyDrawerState extends State<MyDrawer> {
                 CupertinoIcons.game_controller_solid,
                 color: Colors.black,
               ),
-              title: Text('Game',
+              title: Text('FlapV',
                 style:TextStyle(
                   color: Colors.black,
                 ),
               ),
-              // onTap: ()=>{
-              //   Navigator.pushNamed(context, '');
-              // },
+              onTap: (){
+                Navigator.pushNamed(context, 'game_screen');
+                setState(() {});
+              },
             ),
-            ListTile(
-
-            )
           ],
         ),
       ),
