@@ -17,7 +17,8 @@ samples, guidance on mobile development, and a full API reference.
 
 VGN(Stay connected to the latest video game news)
 
-//Landing page// ![image]![image](https://user-images.githubusercontent.com/72686609/150095025-ff625b20-ae7e-488a-be80-7d215a656b12.png)
+//Landing page// ![image](https://user-images.githubusercontent.com/72686609/150095190-523a0f33-2525-4380-8949-78022444c0ce.png)
+
 //Sign up page// ![image](https://user-images.githubusercontent.com/72686609/150094736-d12328ac-b4f4-4d06-9039-af50d9dbf2b1.png)
 //Login page// ![image](https://user-images.githubusercontent.com/72686609/150094791-9aa02b0a-ab5c-44e8-9621-2638e861ba45.png)
 
