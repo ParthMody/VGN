@@ -22,11 +22,11 @@ VGN(Stay connected to the latest video game news)
 ![image](https://user-images.githubusercontent.com/72686609/150095425-a336d8a2-ad8c-4402-a38b-36484becc840.png)
 ![image](https://user-images.githubusercontent.com/72686609/150094791-9aa02b0a-ab5c-44e8-9621-2638e861ba45.png)
 
- [image](https://user-images.githubusercontent.com/72686609/150094335-a8b9748f-f8f4-4044-b4c7-8c1064ce6360.png),
-![image](https://user-images.githubusercontent.com/72686609/150094539-e88b0f9c-e1f4-4c02-a17a-a63493db55bc.png),
+![image](https://user-images.githubusercontent.com/72686609/150094335-a8b9748f-f8f4-4044-b4c7-8c1064ce6360.png)
+![image](https://user-images.githubusercontent.com/72686609/150094539-e88b0f9c-e1f4-4c02-a17a-a63493db55bc.png)
 ![image](https://user-images.githubusercontent.com/72686609/150095701-15a117f4-f4b1-4537-b500-62f51faacd4d.png)
 
-![image](https://user-images.githubusercontent.com/72686609/150096061-9becfbd4-ad46-4158-b2e9-932ef170e215.png),
+![image](https://user-images.githubusercontent.com/72686609/150096061-9becfbd4-ad46-4158-b2e9-932ef170e215.png)
 ![image](https://user-images.githubusercontent.com/72686609/150096663-c2f4616f-aa76-4cdd-8169-30775abfe414.png)
 
 ![image](https://user-images.githubusercontent.com/72686609/150096590-d51ff598-2792-407a-b87d-572b4ac6f850.png),
