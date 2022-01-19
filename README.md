@@ -29,9 +29,13 @@ VGN(Stay connected to the latest video game news)
 ![image](https://user-images.githubusercontent.com/72686609/150096061-9becfbd4-ad46-4158-b2e9-932ef170e215.png)
 ![image](https://user-images.githubusercontent.com/72686609/150096663-c2f4616f-aa76-4cdd-8169-30775abfe414.png)
 
-![image](https://user-images.githubusercontent.com/72686609/150096590-d51ff598-2792-407a-b87d-572b4ac6f850.png),
-![image](https://user-images.githubusercontent.com/72686609/150097085-1360ffb3-7626-411f-85de-dc15a19a7d7f.png),
+![image](https://user-images.githubusercontent.com/72686609/150096590-d51ff598-2792-407a-b87d-572b4ac6f850.png)
+![image](https://user-images.githubusercontent.com/72686609/150097085-1360ffb3-7626-411f-85de-dc15a19a7d7f.png)
 ![image](https://user-images.githubusercontent.com/72686609/150097548-f1bd8d74-4128-4b42-ad63-5959680e6838.png)
+
+![image](https://user-images.githubusercontent.com/72686609/150098113-ac01dd0e-3dc0-4053-a7cd-1f8b6a57ba2b.png)
+
+
 
 
 
