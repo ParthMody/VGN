@@ -20,6 +20,7 @@ VGN(Stay connected to the latest video game news)
 ![image](https://user-images.githubusercontent.com/72686609/150095190-523a0f33-2525-4380-8949-78022444c0ce.png)
 
 ![image](https://user-images.githubusercontent.com/72686609/150095425-a336d8a2-ad8c-4402-a38b-36484becc840.png)
+
 ![image](https://user-images.githubusercontent.com/72686609/150094791-9aa02b0a-ab5c-44e8-9621-2638e861ba45.png)
 
 ![image](https://user-images.githubusercontent.com/72686609/150094335-a8b9748f-f8f4-4044-b4c7-8c1064ce6360.png)
